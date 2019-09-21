@@ -23,8 +23,8 @@ sudo apt-get install -y vim git build-essential cmake python python-pip
 or for CentOS/Fedora/RedHAt
 ```
 sudo dnf udpate
-sudo dnf install -y vim git cmake pyton-pip
-sudo yum groupinstall 'Development Tools'
+sudo dnf install -y vim git cmake gcc-c++ make python3-devel
+sudo dnf groupinstall 'Development Tools'
 ```
 
 end run `bash setup.sh`
