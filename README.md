@@ -15,8 +15,19 @@ Before running `setup.sh` make sure your system meets all the requirements below
 - python
 - python-pip
 
-You can install them with `sudo apt-get update && sudo apt-get install -y vim git build-essential cmake python python-pip`  
-Then run `bash setup.sh`
+You can install them with `
+```
+sudo apt-get update
+sudo apt-get install -y vim git build-essential cmake python python-pip
+```
+or for CentOS/Fedora/RedHAt
+```
+sudo dnf udpate
+sudo dnf install -y vim git cmake pyton-pip
+sudo yum groupinstall 'Development Tools'
+```
+
+end run `bash setup.sh`
 
 ### Note
 This script was tested on Ubuntu > 16.04
