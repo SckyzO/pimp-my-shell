@@ -30,7 +30,7 @@ sudo dnf groupinstall 'Development Tools'
 end run `bash setup.sh`
 
 ### Note
-This script was tested on Ubuntu > 16.04
+This script was tested on Ubuntu > 16.04 & Fedora > 30
 
 ## Mappings
 
