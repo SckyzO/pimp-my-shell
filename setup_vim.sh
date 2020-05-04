@@ -13,6 +13,12 @@ echo -e "$INFO ${YELLOW}Installing Vundle Plugin Manager$DEFAULT"
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 echo -e "$OK ${GREEN}Vundle installed${DEFAULT}"
 
+# Install Vundle
+echo -e "$INFO ${YELLOW}Installing Vundle Plugin Manager$DEFAULT"
+git clone https://github.com/hashivim/vim-terraform.git ~/.vim/bundle/vim-terraform
+echo -e "$OK ${GREEN}Vundle installed${DEFAULT}"
+
+
 # Install rupza colorscheme
 echo -e "$INFO ${YELLOW}Installing .vimrc file$DEFAULT"
 git clone https://github.com/felipesousa/rupza ~/.vim/colors/rupza
