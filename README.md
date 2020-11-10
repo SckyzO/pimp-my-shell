@@ -71,8 +71,7 @@ My Tmux configuration
 | -------- | ----------- |
 | `Ctrl` + `q` | Enter Tmux |
 | `-` | Split a window horizontally |
-| `|` | Split a window vertically |
-| `|` | Split a window vertically |
+| `\|` | Split a window vertically |
 | `Ctrl + arrow` | Switch betewen panes |
 | `Shift + arrow` | Key to move between windows |
 | `e` | Edit and source the .tmux.conf file |
