@@ -82,7 +82,7 @@ My Tmux configuration
 
 My custom ZSH
 
-![zsh](zshrc.png)
+![zsh](zsh.png)
 
 ### Install Oh-my-ZSH
 
