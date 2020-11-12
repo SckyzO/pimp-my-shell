@@ -8,7 +8,8 @@ Custom vim configuration, highly inspired from [VIM and Python – A Match Made 
 
 ### Install
 #### Requirements
-Before running `setup.sh` make sure your system meets all the requirements below :
+
+Before running `setupVim.sh` make sure your system meets all the requirements below :
 
 - vim (yeah, really)
 - git
@@ -29,7 +30,7 @@ sudo dnf install -y vim git cmake gcc-c++ make python3-devel
 sudo dnf groupinstall 'Development Tools'
 ```
 
-end run `bash setup.sh`
+end run `bash setupVim.sh`
 
 #### Note
 This script was tested on Ubuntu > 16.04 & Fedora > 30
@@ -65,6 +66,8 @@ My Tmux configuration
 
 ![Preview Tmux](tmux.png)
 
+Copy file `.tmux.conf` to `~/.tmux.conf`
+
 ### Mappings
 
 | Controls | Description |
@@ -82,6 +85,17 @@ My Tmux configuration
 My custom ZSH
 
 ![zsh](zsh.png)
+
+### How to install
+
+First install Oh-my-ZSH and Powerline10k. 
+
+Next install plugins and replace default `zshrc` by my `.zshrc`
+
+```
+mv ~/.zshrc .zshrc."$(date +%F)"
+cp .zshrc ~/.zshrc
+```
 
 ### Install Oh-my-ZSH
 
