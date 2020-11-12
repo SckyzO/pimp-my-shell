@@ -4,7 +4,7 @@
 
 Custom vim configuration, highly inspired from [VIM and Python – A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
 
-![Preview](screenshot.png)
+![Preview](screenshot/vim.png)
 
 ### Install
 #### Requirements
@@ -18,13 +18,16 @@ Before running `setupVim.sh` make sure your system meets all the requirements be
 - python
 - python-pip
 
-You can install them with `
-```
+You can install them with
+
+```bash
 sudo apt-get update
 sudo apt-get install -y vim git build-essential cmake python python-pip
 ```
+
 or for CentOS/Fedora/RedHAt
-```
+
+```bash
 sudo dnf udpate
 sudo dnf install -y vim git cmake gcc-c++ make python3-devel
 sudo dnf groupinstall 'Development Tools'
@@ -46,9 +49,8 @@ This script was tested on Ubuntu > 16.04 & Fedora > 30
 | `F3` | - | Display number line toggle |
 | `F4` | - | Ask password for save as root |
 
-
-
 ### Credits
+
 1. [VIM and Python – A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven/)  
 2. [Vundle - Vim Plugin Manager](https://github.com/gmarik/Vundle.vim)  
 3. [YouCompleteMe - Vim Plugin](https://github.com/Valloric/YouCompleteMe)  
@@ -64,7 +66,7 @@ This script was tested on Ubuntu > 16.04 & Fedora > 30
 
 My Tmux configuration
 
-![Preview Tmux](tmux.png)
+![Preview Tmux](/screenshot/tmux.png)
 
 Copy file `.tmux.conf` to `~/.tmux.conf`
 
@@ -84,13 +86,13 @@ Copy file `.tmux.conf` to `~/.tmux.conf`
 
 My custom ZSH
 
-![zsh](zsh.png)
+![Previews zsh](screenshot/zsh.png)
 
 ### How to install
 
-First install Oh-my-ZSH and Powerline10k. 
-
-Next install plugins and replace default `zshrc` by my `.zshrc`
+1. First install Oh-my-ZSH and Powerline10k. 
+2. Next install plugins 
+3. Replace default `~/.zshrc` by my `.zshrc`
 
 ```
 mv ~/.zshrc .zshrc."$(date +%F)"
@@ -99,11 +101,17 @@ cp .zshrc ~/.zshrc
 
 ### Install Oh-my-ZSH
 
+Oh My Zsh is an open source, community-driven framework for managing your Zsh configuration.
+
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ### Install powerline10k
+
+Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
+
+[![asciicast](https://asciinema.org/a/259663.svg)](https://asciinema.org/a/259663)
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
