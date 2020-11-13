@@ -173,3 +173,42 @@ In my .zshrc, I use this plugins
 - terraform
 - update-custom-plugins
 
+## Windows Terminal
+
+Windows Terminal is a multi-tabbed command-line front-end that Microsoft has developed for Windows 10.It can run any command-line app, including all Windows terminal emulators, in a separate tab. It is preconfigured to run Command Prompt, PowerShell, WSL, SSH, and Azure Cloud Shell Connector.
+
+### Font
+
+I love Anonymous Pro Font in terminal. [Download](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/AnonymousPro.zip)
+
+![Anonymous Pro Font](https://www.nerdfonts.com/assets/img/previews/Anonymice%20Nerd%20Font.svg)
+
+For others font check here : [https://www.nerdfonts.com/](https://www.nerdfonts.com/)
+
+### My Windows Terminal Settings
+
+![Windows Terminal](screenshot/WindowsTerminal.png)
+
+In Windows Terminal, Open settings (Ctrl+,) and paste my settings.json. 
+
+#### My shortcuts
+
+| Keybinding | Description |
+| --- | --- |
+| Ctrl+Shift+f | Open Search Box |
+| Ctrl+Shift+P | Open Command Palette (Default) |
+| Alt+Shift+d | Auto Split Pane in duplicate mode |
+| Alt+Shift+- | Horizontal Split Pane in duplicate mode |
+| Alt+Shift+plus | Vertical Split Pane in duplicate mode |
+| Alt+Shift+numpad_minux | Horizontal Split Pane in duplicate mode |
+| Alt+Shift+numpad_plus | Vertical Split Pane in duplicate mode |
+
+#### My Settings 
+
+```json
+// selections are automatically copied to your clipboard.
+"copyOnSelect": true,
+
+// formatted data is also copied to your clipboard
+"copyFormatting": false,
+```
