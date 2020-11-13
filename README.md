@@ -245,11 +245,11 @@ Windows Terminal is a multi-tabbed command-line front-end that Microsoft has dev
 
 ### Font
 
-I love Anonymous Pro Font in terminal. [Download](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/AnonymousPro.zip)
+I love Anonymous Pro Font. [Download](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/AnonymousPro.zip)
 
-![Anonymous Pro Font](screenshot/anonymouspro.png)
+![Anonymous Pro Font](screenshot/anonymouspro.jpg)
 
-For others font check here : [https://www.nerdfonts.com/](https://www.nerdfonts.com/)
+For others fonts check here : [https://www.nerdfonts.com/](https://www.nerdfonts.com/)
 
 ### My Windows Terminal Settings
 
