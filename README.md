@@ -247,7 +247,7 @@ Windows Terminal is a multi-tabbed command-line front-end that Microsoft has dev
 
 I love Anonymous Pro Font in terminal. [Download](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/AnonymousPro.zip)
 
-![Anonymous Pro Font](https://www.nerdfonts.com/assets/img/previews/Anonymice%20Nerd%20Font.svg)
+![Anonymous Pro Font](screenshot/anonymouspro.png)
 
 For others font check here : [https://www.nerdfonts.com/](https://www.nerdfonts.com/)
 
