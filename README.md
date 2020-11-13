@@ -70,17 +70,83 @@ My Tmux configuration
 
 Copy file `.tmux.conf` to `~/.tmux.conf`
 
-### Mappings
+### My Mappings
 
 | Controls | Description |
 | -------- | ----------- |
 | `Ctrl` + `q` | Enter Tmux |
 | `-` | Split a window horizontally |
-| `\|` | Split a window vertically |
+| `+` | Split a window vertically |
 | `Ctrl + arrow` | Switch betewen panes |
 | `Shift + arrow` | Key to move between windows |
 | `e` | Edit and source the .tmux.conf file |
 | `R` | Source the .tmux.conf file |
+
+### Use Tmux
+
+start new:
+
+    tmux
+
+start new with session name:
+
+    tmux new -s myname
+
+attach:
+
+    tmux a  #  (or at, or attach)
+
+attach to named:
+
+    tmux a -t myname
+
+list sessions:
+
+    tmux ls
+
+<a name="killSessions"></a>kill session:
+
+    tmux kill-session -t myname
+
+<a name="killAllSessions"></a>Kill all the tmux sessions:
+
+    tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
+
+In tmux, hit the prefix `ctrl+b` (my modified prefix is ctrl+a) and then:
+
+### List all shortcuts
+to see all the shortcuts keys in tmux simply use the `bind-key ?` in my case that would be `CTRL-B ?`
+
+### Sessions
+
+    :new<CR>  new session
+    s  list sessions
+    $  name session
+
+### <a name="WindowsTabs"></a>Windows (tabs)
+
+    c  create window
+    w  list windows
+    n  next window
+    p  previous window
+    f  find window
+    ,  name window
+    &  kill window
+
+### <a name="PanesSplits"></a>Panes (splits) 
+
+    +  vertical split
+    -  horizontal split
+    
+    o  swap panes
+    q  show pane numbers
+    x  kill pane
+    ⍽  space - toggle between layouts
+    <prefix> q (Show pane numbers, when the numbers show up type the key to goto that pane)
+    <prefix> { (Move the current pane left)
+    <prefix> } (Move the current pane right)
+    <prefix> z toggle pane zoom
+
 
 ## ZSH
 
