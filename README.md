@@ -147,6 +147,23 @@ to see all the shortcuts keys in tmux simply use the `bind-key ?` in my case tha
     <prefix> } (Move the current pane right)
     <prefix> z toggle pane zoom
 
+### Save / Restore Tmux-session
+
+I find a little script to save/restore tmux session. [source here](https://github.com/mislav/dotfiles/blob/d2af5900fce38238d1202aa43e7332b20add6205/bin/tmux-session)
+
+Put script in : `sudo vim /usr/local/bin/tmux-session`, add `sudo chmod +x /usr/local/bin/tmux-session`. 
+
+Call it like so manually or periodically from cron (because you might forget):
+
+```bash
+tmux-session save
+```
+
+It will write to `~/.tmux-session`. Restore them after reboot like so:
+
+```bash
+tmux-session restore
+```
 
 ## ZSH
 
@@ -279,20 +296,4 @@ In Windows Terminal, Open settings (Ctrl+,) and paste my settings.json.
 "copyFormatting": false,
 ```
 
-### Save / Restore Tmux-session
 
-I find a little script to save/restore tmux session. [source here](https://github.com/mislav/dotfiles/blob/d2af5900fce38238d1202aa43e7332b20add6205/bin/tmux-session)
-
-Put script in : `sudo vim /usr/local/bin/tmux-session`, add `sudo chmod +x /usr/local/bin/tmux-session`. 
-
-Call it like so manually or periodically from cron (because you might forget):
-
-```bash
-tmux-session save
-```
-
-It will write to `~/.tmux-session`. Restore them after reboot like so:
-
-```bash
-tmux-session restore
-```
