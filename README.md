@@ -1,5 +1,33 @@
 # Pimp my Shell !
 
+- [Pimp my Shell !](#pimp-my-shell--)
+  * [VIM](#vim)
+    + [Install](#install)
+    + [Mappings](#mappings)
+    + [Credits](#credits)
+  * [TMUX](#tmux)
+    + [My Mappings](#my-mappings)
+    + [Use Tmux](#use-tmux)
+    + [List all shortcuts](#list-all-shortcuts)
+    + [Sessions](#sessions)
+    + [Save / Restore Tmux-session](#save---restore-tmux-session)
+  * [ZSH](#zsh)
+    + [How to install](#how-to-install)
+    + [Install Oh-my-ZSH](#install-oh-my-zsh)
+    + [Install powerline10k](#install-powerline10k)
+    + [Install plugins :](#install-plugins--)
+      - [fzf](#fzf)
+      - [colorls](#colorls)
+      - [zsh-autosuggestions](#zsh-autosuggestions)
+      - [zsh-syntax-highlighting](#zsh-syntax-highlighting)
+      - [update-custom-plugins](#update-custom-plugins)
+      - [.zshrc](#zshrc)
+  * [Windows Terminal](#windows-terminal)
+    + [Font](#font)
+    + [My Windows Terminal Settings](#my-windows-terminal-settings)
+      - [My shortcuts](#my-shortcuts)
+      - [My Settings](#my-settings)
+
 ## VIM
 
 Custom vim configuration, highly inspired from [VIM and Python – A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
